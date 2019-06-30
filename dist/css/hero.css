@@ -1,0 +1,79 @@
+.hero-container {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-container > .fragment {
+  float: left;
+  position: relative;
+  top: 0;
+}
+
+.hero-container > .fragment.img {
+  background-origin: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-container > .fragment > .title {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.hero-container > .fragment > .title.light {
+  color: azure;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.49);
+}
+
+.hero-container > .fragment > .title.dark {
+  color: black;
+}
+
+.hero-container > .first {
+  width: 45%;
+  height: 100%;
+  background-image: url("../../assets/img/image3.jpg");
+}
+
+.hero-container > .first > .title {
+  font-size: 4em;
+}
+
+.hero-container > .second {
+  width: 35%;
+  height: 66.6666%;
+  background-image: url("../../assets/img/image2.jpg");
+}
+
+.hero-container > .third {
+  width: 20%;
+  height: 33.3333%;
+  background-image: url("../../assets/img/image1.jpg");
+}
+
+.hero-container > .fourth {
+  width: 20%;
+  height: 33.3333%;
+  background-image: url("../../assets/img/image4.jpg");
+}
+
+.hero-container > .fifth {
+  width: 35%;
+  height: 33.3333%;
+  background-image: url("../../assets/img/image5.jpg");
+}
+
+.hero-container > .sixth {
+  width: 20%;
+  height: 33.3333%;
+  background-image: url("../../assets/img/image6.jpg");
+}
+/*# sourceMappingURL=hero.css.map */

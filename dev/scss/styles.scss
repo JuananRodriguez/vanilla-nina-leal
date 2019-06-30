@@ -1,0 +1,28 @@
+// @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+$font-secondary: 'Montserrat', sans-serif;
+$font-logotype: 'Pacifico', cursive;
+
+
+//Other scss files
+// @import 'hero', "menu";
+@import 'breakPoints','hero', 'menu';
+
+html, body{
+    // overflow-x: hidden; 
+}
+
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: $font-secondary; 
+}
+
+.relative{
+    position: relative;
+}

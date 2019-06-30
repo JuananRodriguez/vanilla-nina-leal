@@ -1,0 +1,88 @@
+
+$img1: "../../assets/img/image3.jpg";
+$img2: "../../assets/img/image2.jpg";
+$img3: "../../assets/img/image1.jpg";
+$img4: "../../assets/img/image4.jpg";
+$img5: "../../assets/img/image5.jpg";
+$img6: "../../assets/img/image6.jpg";
+
+.hero-container{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    
+    & > .fragment{
+        float: left;
+        position: relative;
+        top: 0;
+
+        &.img{
+            background-origin: border-box;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        & > .title {
+            position: absolute;
+            bottom: 10%;
+            left: 10%;
+            font-size: 2em;
+            font-weight: 900;
+
+            &.light{
+                color: azure;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.49);
+            }
+            &.dark{
+                color: black
+            }
+
+          
+        }
+    }
+    
+
+    & > .first{
+        width: 45%;
+        height: 100%;
+        background-image: url($img1);
+        & > .title {
+            font-size: 4em;
+        }
+    }
+
+    & > .second {
+        width: 35%;
+        height: 66.6666%;
+        background-image: url($img2)
+    }
+
+    & > .third {
+        width: 20%;
+        height: 33.3333%;
+        background-image: url($img3)
+    }
+
+    & > .fourth {
+        width: 20%;
+        height: 33.3333%;
+        background-image: url($img4)
+    }
+
+    & > .fifth {
+        width: 35%;
+        height: 33.3333%;
+        background-image: url($img5)
+    }
+
+    & > .sixth {
+        width: 20%;
+        height: 33.3333%;
+        background-image: url($img6)
+    }
+   
+}
